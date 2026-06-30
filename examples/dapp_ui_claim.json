@@ -1,0 +1,22 @@
+{
+  "url": "https://example.com/dapp",
+  "claim": "The dApp dashboard shows rewards are ready to claim.",
+  "expected_visual_state": "The dashboard should visibly show a rewards-ready, claimable, or completed state.",
+  "verification_policy": {
+    "required_visual_evidence": [
+      "reward status",
+      "claim button or ready indicator"
+    ],
+    "risk_flags": [
+      "disabled claim button",
+      "wrong contract address",
+      "pending state",
+      "error banner"
+    ],
+    "manual_review_if": [
+      "wallet connection required",
+      "state hidden behind auth",
+      "ambiguous dashboard copy"
+    ]
+  }
+}

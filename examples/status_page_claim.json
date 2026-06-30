@@ -1,0 +1,29 @@
+{
+  "url": "https://example.com/status",
+  "claim": "The public status page shows all systems operational.",
+  "expected_visual_state": "The page should visibly show all systems operational, healthy, or an equivalent green/OK service state.",
+  "verification_policy": {
+    "required_visual_evidence": [
+      "overall status banner",
+      "service health indicator"
+    ],
+    "accepted_equivalent_phrases": [
+      "all systems operational",
+      "operational",
+      "healthy",
+      "no incidents"
+    ],
+    "risk_flags": [
+      "maintenance banner",
+      "degraded service",
+      "partial outage",
+      "incident report"
+    ],
+    "manual_review_if": [
+      "page unavailable",
+      "login required",
+      "visual state unclear",
+      "conflicting text"
+    ]
+  }
+}

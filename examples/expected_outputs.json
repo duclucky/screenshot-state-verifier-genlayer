@@ -1,0 +1,37 @@
+{
+  "valid_verdicts": [
+    "verified",
+    "not_verified",
+    "ambiguous",
+    "page_unavailable",
+    "requires_manual_review"
+  ],
+  "verified_example": {
+    "verification_id": "verification_1",
+    "url": "https://example.com/status",
+    "claim": "The public status page shows all systems operational.",
+    "expected_visual_state": "The page should visibly show all systems operational.",
+    "verdict": "verified",
+    "confidence": "high",
+    "visual_evidence_summary": "The screenshot shows a green operational status banner.",
+    "mismatch_reason": "",
+    "requires_manual_review": false,
+    "risk_flags": [],
+    "validator_equivalence_note": "Independent validator outputs agreed on the visible operational state."
+  },
+  "ambiguous_example": {
+    "verification_id": "verification_2",
+    "url": "https://example.com/dashboard",
+    "claim": "The dashboard proves the milestone is complete.",
+    "expected_visual_state": "The page should show completed milestone evidence.",
+    "verdict": "ambiguous",
+    "confidence": "medium",
+    "visual_evidence_summary": "The screenshot shows a launch message but no clear completion proof.",
+    "mismatch_reason": "The visible UI does not contain enough milestone-specific evidence.",
+    "requires_manual_review": true,
+    "risk_flags": [
+      "missing_completion_evidence"
+    ],
+    "validator_equivalence_note": "Validators agreed that the screenshot is insufficient, but not conclusive."
+  }
+}

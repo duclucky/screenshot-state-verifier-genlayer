@@ -1,0 +1,10 @@
+{
+  "project": "Screenshot State Verifier",
+  "category": "Intelligent Contracts",
+  "network": "",
+  "contract_address": "",
+  "deploy_transaction_hash": "",
+  "verification_transaction_hash": "",
+  "deployed_at": "",
+  "notes": "Fill after GenLayer Studio deployment."
+}

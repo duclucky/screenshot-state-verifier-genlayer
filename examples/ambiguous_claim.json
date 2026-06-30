@@ -1,0 +1,21 @@
+{
+  "url": "https://example.com/dashboard",
+  "claim": "The dashboard proves the project milestone is complete.",
+  "expected_visual_state": "The page should show clear shipped/completed milestone evidence.",
+  "verification_policy": {
+    "required_visual_evidence": [
+      "milestone title",
+      "completed status",
+      "supporting date or version"
+    ],
+    "risk_flags": [
+      "marketing claim only",
+      "no proof",
+      "unclear status",
+      "missing version"
+    ],
+    "manual_review_if": [
+      "the screenshot only shows a vague launch message"
+    ]
+  }
+}

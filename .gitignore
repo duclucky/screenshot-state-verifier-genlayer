@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.local
+node_modules/
+dist/
+build/
+.vercel/
+tools/
+*.exe
+.DS_Store
+Thumbs.db
