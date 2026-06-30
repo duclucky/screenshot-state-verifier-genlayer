@@ -1,0 +1,10 @@
+{
+  "project": "Screenshot State Verifier",
+  "category": "Intelligent Contracts",
+  "network": "GenLayer Bradbury Testnet",
+  "contract_address": "0x7Dc8c7137606D2025a47579AebF0aDBf13a2F68C",
+  "deploy_transaction_hash": "0x31a73cd4a24643d1dee09dd5903b50bea94a082c7388a8f6ea334678092d1272",
+  "verification_transaction_hash": "0xf62320311b1b075a28e05bc3770c158776ba3ffe353f4aa56eb838f63691175d",
+  "deployed_at": "",
+  "notes": "Successful deployment was completed through the GenLayer Studio UI on Bradbury Testnet."
+}
